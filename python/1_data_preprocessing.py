@@ -1,5 +1,4 @@
 import numpy
-import matplotlib.pyplot as plt
 import pandas
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
