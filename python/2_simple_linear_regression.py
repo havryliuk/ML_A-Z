@@ -22,7 +22,7 @@ pyplot.scatter(X_train, y_train, marker='.', color='red')
 pyplot.plot(X_train, y_predicted)
 pyplot.xlabel('Experience (years)')
 pyplot.ylabel('Salary')
-#pyplot.show()
+pyplot.show()
 
 # compare the real test outcomes against the predicted (function)
 # how well our model predicted the outcomes
@@ -30,7 +30,7 @@ pyplot.scatter(X_test, y_test, marker='.', color='red')
 pyplot.plot(X_train, y_predicted)
 pyplot.xlabel('Experience (years)')
 pyplot.ylabel('Salary')
-# pyplot.show()
+pyplot.show()
 
 # use the model to predict salary of employee with 12 years of experience
 prediction = regression.predict([[12]])
@@ -38,4 +38,3 @@ print(f'employee with 12 years of experience should get {prediction}')
 
 # equation is <code>y = coef_ * x + intercept_</code>
 print(f'y = {regression.coef_} * x + {regression.intercept_}')
-
