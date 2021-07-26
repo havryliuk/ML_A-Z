@@ -3,7 +3,7 @@
 # Created on: 28-May-21
 
 # import the dataset
-dataset <- read.csv('resources\\data.csv')
+dataset <- read.csv('..\\resources\\data.csv')
 print(dataset)
 
 # handle missing data
