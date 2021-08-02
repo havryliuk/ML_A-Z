@@ -19,6 +19,9 @@ summary(regressor)
 # predict salaries for the test set
 y_predicted <- predict(regressor, test_set)
 
+# predict salary for employee with 12 years of experience
+twelve_years_salary <- predict(regressor, data.frame("YearsExperience" = 12))
+
 # plot
 library(ggplot2)
 ggplot() +
