@@ -21,9 +21,9 @@ dataset$Country <- factor(dataset$Country,
                           levels = c('France', 'Spain', 'Germany'),
                           labels = c(1, 2, 3))
 dataset$Purchased <- factor(dataset$Purchased,
-                          # specify names for factors (columns) in the vector c
-                          levels = c('No', 'Yes'),
-                          labels = c(0, 1))
+                            # specify names for factors (columns) in the vector c
+                            levels = c('No', 'Yes'),
+                            labels = c(0, 1))
 print(dataset)
 
 # split dataset into training and test datasets
