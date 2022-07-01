@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-dataset = pandas.read_csv('../resources/data.csv')
+dataset = pandas.read_csv('../../resources/data.csv')
 print(type(dataset))
 
 # split the dataset into -

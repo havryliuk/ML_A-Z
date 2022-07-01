@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
 
-dataset = pandas.read_csv('../resources/50_Startups.csv')
+dataset = pandas.read_csv('../../resources/50_Startups.csv')
 
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values

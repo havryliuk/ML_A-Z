@@ -3,7 +3,7 @@ from matplotlib import pyplot
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-dataset = pandas.read_csv('../resources/Salary_Data.csv')
+dataset = pandas.read_csv('../../resources/Salary_Data.csv')
 
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
